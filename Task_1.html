@@ -1,53 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 	<head>
-		<title> My Portfolio Page </title>
+		<title>Mbali's Portfolio Web Page</title>
 		<link rel="stylesheet" href="style.css">
-<style>
-h1 {
-	color: rgb(94, 93, 93);
-	text-align:  bottom left;
-}
-p {
-    color:rgb(94, 93, 93);
-    text-align: left;
-	font-family: Helvetica, sans-serif;
-}
-</style>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" 
+			rel="stylesheet">
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+			crossorigin="anonymous" referrerpolicy="no-referrer" />
 	</head>
+
+	
 	<body>
-		<div class="main">
-			<div class="navbar">
-				<img src="pics/281ce47bc5664ce186b93a2dc60b6bab (1).png" class="logo">
+		<div class="hero">
+			<nav>
+				<h2 class="logo">EN<span>HLE</span></h2>
 				<ul>
 					<li><a href="#">HOME</a></li>
-					<li><a href="#">ABOUT ME</a></li>
+					<li><a href="#">ABOUT US</a></li>
 					<li><a href="#">CONTACT US</a></li>
 				</ul>
+			</nav>
+			<div class="content"> 
+				<h4>Hello There my name is </h4>
+				<h1>Mbali <span>Khumalo</span></h1>
+				<h3>I am a web developer</h3>
+				<div class="newsletter">
+				</div>
+		 	</div>
+		</div>
+		<section class="about">
+			<div class="main">
+				<img src="pics/Snapchat-1212305264.jpg">
+				<div class="about-text">
+					<h2>About me</h2>
+					<h5>Hello There</h5>
+					<p>My name is Mbali Khumalo a 25 year old that resides in soweto.<br>I am a family orientated person, that enjoys to work<br> in a team to solve any problem given to us.
+						Coding is my passion its the one that i do on my daily basis<br> keen on getting to know more about how it works<br> how to apply certain commands and functions.<br>
+						I love reading a lot, on my spare time i read mostly novels.<br>
+						I matriculated at Silver Oaks in 2016, obtatined a project management certicate in 2018.<br>
+						From there i began my coding journey in 2017 got rejected three times from wethinkcode,<br>i keot on pushing and applying to get in<br>
+						i finally got a chance to be part of the wethinkcode team in 2021.<br>
+						Studied C language and Python at ALX.<br> Self taught in DJANGO, JINJA, CSS.<br>
+						I have done projects, Hangman, Pyramids, Client and Server.
+					</p> 
+					<luck class="me">
+						<div class="wait">
+							<div class="contact-text">
+							<form>
+								<h2>Contact us</h2>
+								<input type="email" name="email" id="mail" placeholder="Enter Your Email">
+								<input type="name"	name="name"	 id="name" placeholder="Enter Your Name">
+								<input type="surname"	name="surname" id="surname" placeholder="Enter Your surname">
+								<input type="message" name="message" id="message" placeholder="Enter Your message">
+								<a class="button-two" href="#">Submit</a>
+							</form>
+							</div>
+						</div>
+					</luck>
+				</div>
 			</div>
-
-			<div class="info">
-				<h1>Mbali</h1>
-				<p>Well groomed young female. <br> I am a sweet soul that loves to know more about software developing.<br>
-					Very much keen about medicine would love to work in that field some day. <br> I have experience based 
-					on python, java and c language, but for now getting to know about web developing, <br> aiming to pursue
-					on cyber security.
-			</p>
-		</div>
-
-		<div>
-			<ol>
-				<li><a href="#">Twitter<br></a></li>
-				<li><a href="#">Facebook<br></a></li>
-				<li><a href="#">Linkedin<br></a></li>
-				<li><a href="#">Instagram</a></li>
-			</ol>
-		</div>
-
-		<div class="image">
-			<img src="pics/Snapchat-1212305264.jpg" class="girl">
-		</div>
-		</div>
+		</section>
+		<footer>
+			<p>Mbali Khumalo</p>
+			<p>For me info click on one of the link below to contact me:</p>
+			<div class="social"></div>
+			<a href="#"><i class="fab fa-facebook-f"></i></a>
+			<!-- <a href="https://www.instagram.com/mbar_lee/"><i class="fab fa-instagram"></i></a> -->
+			<a href="https://github.com/Mbali-Khumalo?tab=repositories"><i class="fab fa-github"></i></a>
+			<a href="https://www.linkedin.com/in/mbali-khumalo-34199a16a/"><i class="fab fa-linkedin"></i></a>
+		</footer>
 	</body>
 </html>
-
